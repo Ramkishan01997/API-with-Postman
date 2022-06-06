@@ -1,0 +1,115 @@
+{
+	"id": "35a1b21c-a4a7-47a5-8894-5b281f5bd45b",
+	"name": "new Api",
+	"timestamp": "2022-06-06T02:24:50.838Z",
+	"collection_id": "19775229-80e03dc2-567d-4c58-adcd-be7bfb19c5f5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "04616f56-bc69-4cb8-87d6-7b3616171426",
+			"name": "New Request",
+			"url": "https://restcountries.com/v3.1/capital/lima",
+			"time": 921,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				921
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bc85641e-f0e0-4ec7-a6ce-5b0fa73c976c",
+			"name": "Capital city GET",
+			"url": "https://restcountries.com/v3.1/capital/Delhi",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"country validation": true
+			},
+			"testPassFailCounts": {
+				"country validation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				312
+			],
+			"allTests": [
+				{
+					"country validation": true
+				}
+			]
+		},
+		{
+			"id": "a2b8bac7-21b5-42d2-b107-695a42b1c87c",
+			"name": "lima",
+			"url": "https://restcountries.com/v3.1/capital/lima",
+			"time": 368,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				368
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "940d7ade-d877-4af9-8ef2-739460a185d9",
+			"name": "paris",
+			"url": "https://restcountries.com/v3.1/capital/paris",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				291
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1892,
+	"collection": {
+		"requests": [
+			{
+				"id": "04616f56-bc69-4cb8-87d6-7b3616171426",
+				"method": "GET"
+			},
+			{
+				"id": "bc85641e-f0e0-4ec7-a6ce-5b0fa73c976c",
+				"method": "GET"
+			},
+			{
+				"id": "a2b8bac7-21b5-42d2-b107-695a42b1c87c",
+				"method": "GET"
+			},
+			{
+				"id": "940d7ade-d877-4af9-8ef2-739460a185d9",
+				"method": "GET"
+			}
+		]
+	}
+}
