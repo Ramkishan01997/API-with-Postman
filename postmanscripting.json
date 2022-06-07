@@ -1,0 +1,201 @@
+{
+	"id": "bda51ab1-1c67-469d-9e11-011d69aae389",
+	"name": "Postman Scripting",
+	"timestamp": "2022-06-06T04:05:54.319Z",
+	"collection_id": "19775229-50e9702d-3e26-4b3c-aa54-1e18ac9ac7d4",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 17,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "ec53c120-9777-48d8-b6be-b9fed8d12f1f",
+			"name": "New Request",
+			"url": "https://reqres.in/api/users/2",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validate multiple response": true,
+				"body contains string": true,
+				"succesful status code": true,
+				"content type header": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"validate multiple response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"body contains string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"succesful status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"content type header": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				174
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validate multiple response": true,
+					"body contains string": true,
+					"succesful status code": true,
+					"content type header": true
+				}
+			]
+		},
+		{
+			"id": "452e8381-827b-45b8-87b1-309158d5dc97",
+			"name": "GET",
+			"url": "https://reqres.in/api/users/2",
+			"time": 94,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validate multiple response": true,
+				"body contains string": true,
+				"succesful status code": true,
+				"content type header": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validate multiple response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"body contains string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"succesful status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"content type header": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validate multiple response": true,
+					"body contains string": true,
+					"succesful status code": true,
+					"content type header": true
+				}
+			]
+		},
+		{
+			"id": "3214c59b-ed78-4e93-a491-33cbf0cd6ad1",
+			"name": "Tests",
+			"url": "https://reqres.in/api/users/2",
+			"time": 97,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validate multiple response": true,
+				"body contains string": true,
+				"succesful status code": true,
+				"content type header": true,
+				"content-type-value": true,
+				"cookies is present": false,
+				"response time less than 20 ms ": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validate multiple response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"body contains string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"succesful status code": {
+					"pass": 1,
+					"fail": 0
+				},
+				"content type header": {
+					"pass": 1,
+					"fail": 0
+				},
+				"content-type-value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"cookies is present": {
+					"pass": 0,
+					"fail": 1
+				},
+				"response time less than 20 ms ": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				97
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validate multiple response": true,
+					"body contains string": true,
+					"succesful status code": true,
+					"content type header": true,
+					"content-type-value": true,
+					"cookies is present": false,
+					"response time less than 20 ms ": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 365,
+	"collection": {
+		"requests": [
+			{
+				"id": "ec53c120-9777-48d8-b6be-b9fed8d12f1f",
+				"method": "GET"
+			},
+			{
+				"id": "452e8381-827b-45b8-87b1-309158d5dc97",
+				"method": "GET"
+			},
+			{
+				"id": "3214c59b-ed78-4e93-a491-33cbf0cd6ad1",
+				"method": "GET"
+			}
+		]
+	}
+}
